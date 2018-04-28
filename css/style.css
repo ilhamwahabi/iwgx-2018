@@ -66,6 +66,58 @@ section#skill {
   background-size: cover;
   background-attachment: scroll;
   color: white;
+  padding: 15rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.skill__title {
+  font-size: 7rem;
+  margin-bottom: 3rem;
+}
+
+.skill__item {
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  flex: 1;  
+}
+
+.row {
+  min-width: 70%;
+  max-width: 90%;
+  margin: 3rem;
+
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+
+.skill__react {
+  background-image: url("https://s3.amazonaws.com/media-p.slid.es/uploads/alexanderfarennikov/images/1198519/reactjs.png");  
+}
+
+.skill__vue {
+  background-image: url("https://genesisui-static-dcklmia32ll.netdna-ssl.com/assets/img/logos/vue.svg");    
+}
+
+.skill__angular {
+  background-image: url("https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/000/300/full/angular2.png");
+}
+
+.skill__meteor {
+  background-image: url("https://d29fhpw069ctt2.cloudfront.net/icon/image/38609/preview.svg");
+}
+
+.skill__electron {
+  background-image: url("https://camo.githubusercontent.com/79904b8ba0d1bce43022bbd5710f0ea1db33f54f/68747470733a2f2f7261776769742e636f6d2f73696e647265736f726875732f617765736f6d652d656c656374726f6e2f6d61737465722f656c656374726f6e2d6c6f676f2e737667");
+}
+
+.skill__sass {
+  background-image: url("https://sass-lang.com/assets/img/logos/logo-b6e1ef6e.svg");
 }
 
 section#portfolio {
@@ -91,10 +143,14 @@ footer#footer {
 
 .footer__title {
   font-size: 7rem;
-  margin-bottom: 5rem;    
+  margin-bottom: 5rem;      
+}
+
+.footer__subtitle {
+  font-size: 2rem;
 }
 
 .footer__email {
   font-size: 9rem;
-  margin-bottom: 20rem;  
+  margin-bottom: 5rem;  
 }
