@@ -10,7 +10,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  
 }
 
 header#header {
@@ -37,12 +36,26 @@ header#header {
 }
 
 section#desc {
-  min-height: 50vh;
+  min-height: 75vh;
   max-width: 100vw;
   background-color: white;
 
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #5b86e5;
+}
+
+.desc__title {
+  font-size: 5rem;
+  margin-bottom: 5rem;
+}
+
+.desc__content {
+  font-size: 3rem;
+  max-width: 70%;
+  text-align: justify;
 }
 
 section#skill {
