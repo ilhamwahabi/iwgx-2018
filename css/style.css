@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 10px;
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+header#header {
+  min-height: 100vh;
+  max-width: 100vw;
+  /* background-image: url("../assets/bg.jpg"); */
+  background-position: center;
+  background-size: cover;
+  background-attachment: scroll;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__title {
+  font-size: 7rem;
+}
+
+.header__subtitle {
+  font-size: 2rem;
+}
