@@ -15,8 +15,13 @@ section#desc {
   margin-bottom: 5rem;
 }
 
-.desc__content {
+.desc__content{
   font-size: 3rem;
   max-width: 70%;
   text-align: justify;
+}
+
+.desc__content .ul {
+  font-size: 3rem;
+  border-bottom: .1rem solid #5b86e5;  
 }

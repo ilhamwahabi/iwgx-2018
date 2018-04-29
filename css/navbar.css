@@ -12,17 +12,18 @@ nav#navbar {
   text-align: center;
   flex: 1;
   cursor: pointer;
-  /* transition: text-decoration .5s; */
 }
 
 .navbar__item a {
   text-decoration: none;  
   color: white;  
   font-size: 2rem;
+  padding-bottom: .3rem;
+  transition: border-bottom 1s;  
 }
 
-.navbar__item:hover {
-  /* text-decoration: underline; */
+.navbar__item a:hover {
+  border-bottom: .1rem solid white;
 }
 
 .divider-1 {

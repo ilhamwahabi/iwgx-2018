@@ -19,6 +19,11 @@ header#header {
   font-size: 10rem;
 }
 
-.header__subtitle {
+.header__subtitle, .header__subtitle .ul {
   font-size: 3rem;
+}
+
+.header__subtitle .ul {
+  padding-bottom: .3rem;
+  border-bottom: .3rem solid white;
 }

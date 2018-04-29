@@ -26,6 +26,12 @@ section#skill {
   background-repeat: no-repeat;
   flex: 1;  
   cursor: pointer;
+  transition: transform .3s;
+}
+
+.skill__item:hover {
+  /* filter: saturate(2.5); */
+  transform: scale(1.2);
 }
 
 .row {
