@@ -84,6 +84,7 @@ section#skill {
   background-size: contain;
   background-repeat: no-repeat;
   flex: 1;  
+  cursor: pointer;
 }
 
 .row {
@@ -170,6 +171,7 @@ section#portfolio {
   background-repeat: no-repeat;
   width: 100%;
   height: 100%;
+  cursor: pointer;
 }
 
 .portfolio__one{
