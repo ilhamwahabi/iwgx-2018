@@ -37,14 +37,8 @@ nav#navbar {
 }
 
 .navbar__item-resume {
-  background-color: #5b86e5;
-  border-radius: .5rem;
-  padding: 1rem;
-  transition: background-color .5s;
-}
-
-.navbar__item-resume:hover {
-  background-color: #36d1dc;  
+  border-bottom: .1rem solid white;
+  padding-bottom: .5rem;
 }
 
 .navbar__item-resume a:hover {

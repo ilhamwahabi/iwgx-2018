@@ -37,13 +37,7 @@ section#portfolio {
 .portfolio__item-title {
   font-size: 2.5rem;
   margin-bottom: 3rem;
-  /* padding: .3rem; */
 }
-/* 
-.portfolio__item-title:hover {
-  border-bottom: .3rem solid #3F51B5;
-  backface-visibility: hidden;
-} */
 
 .portfolio__item-desc {
   font-size: 1.5rem;

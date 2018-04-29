@@ -30,7 +30,6 @@ section#skill {
 }
 
 .skill__item:hover {
-  /* filter: saturate(2.5); */
   transform: scale(1.2);
 }
 
