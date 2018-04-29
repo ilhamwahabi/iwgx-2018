@@ -1,17 +1,26 @@
 nav#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: auto;
+  width: 100%;
+  z-index: 99;
+}
+
+.navbar__row {  
   display: flex;
   flex-direction: row;
+  align-items: center;
   justify-content: space-around;
   width: 100%;
   padding: 3rem;
-  position: sticky;
-  z-index: 99;
 }
 
 .navbar__item {
   text-align: center;
   flex: 1;
   cursor: pointer;
+  padding: .3rem;  
 }
 
 .navbar__item a {
@@ -24,6 +33,21 @@ nav#navbar {
 
 .navbar__item a:hover {
   border-bottom: .1rem solid white;
+}
+
+.navbar__item-resume {
+  background-color: #5b86e5;
+  border-radius: .5rem;
+  padding: 1rem;
+  transition: background-color .5s;
+}
+
+.navbar__item-resume:hover {
+  background-color: #36d1dc;  
+}
+
+.navbar__item-resume a:hover {
+  border-bottom: none;
 }
 
 .divider-1 {
