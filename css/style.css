@@ -16,8 +16,60 @@
     font-size: 2rem;
   }
 
+  nav#navbar {
+    bottom: 0;
+    top: unset;
+  }
+
+  #navbar .divider-6, #navbar .divider-1 {
+    flex: 0;
+  }
+
+  .navbar__row {  
+    justify-content: space-around;
+    padding: 0;
+  }
+
+  .navbar__item {
+    padding: 1.5rem 0;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .navbar__colored .navbar__item {
+    text-indent: unset;
+    white-space: unset;
+    overflow: unset;
+  }
+
   .navbar__item a {
     font-size: 1.5rem;
+  }
+
+  .navbar__colored .navbar__item-github {
+    background-color: #263238;
+  }
+
+  .navbar__item-github {
+    order: 0;  
+  }
+
+  .navbar__item-github a, .navbar__item-linkedin a {
+    color: white;
+  }
+
+  .navbar__colored .navbar__item-linkedin {
+    background-color: #2196F3;
+  }
+
+  .navbar__item-linkedin {
+    order: 2;
+  }
+
+  .navbar__colored .navbar__item-resume {
+    border-bottom: none;
+    order: 1;
   }
 
   section#desc {
@@ -58,6 +110,7 @@
 
   #portfolio .row {
     flex-wrap: wrap;
+    margin-bottom: 0;
   }
 
   .portfolio__item {
@@ -72,8 +125,8 @@
   }
 
   .portfolio__item-title {
-    font-size:  1.5rem;
-    margin-bottom: 1rem;
+    font-size:  2rem;
+    margin-bottom: 1.5rem;
     text-align: center;
   }
 

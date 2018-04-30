@@ -41,6 +41,10 @@ nav#navbar {
   padding-bottom: .3rem;
 }
 
+.navbar__item-github, .navbar__item-linkedin {
+  transition: background-color .5s;
+}
+
 .navbar__item-resume a:hover {
   border-bottom: none;
 }
