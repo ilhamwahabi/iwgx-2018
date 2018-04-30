@@ -7,6 +7,7 @@
 @import url('footer.css');
 
 @media (max-width: 640px) {
+
   .header__title {
     font-size: 7.5rem;
   }
@@ -17,6 +18,27 @@
 
   .navbar__item a {
     font-size: 1.5rem;
+  }
+
+  section#desc {
+    min-height: 50vw;
+  }
+
+  section#skill {
+    padding: 15rem 2.5rem;
+    min-height: 75vh;
+  }
+
+  .skill__title {
+    font-size: 3.5rem;
+  }
+
+  #skill .row {
+    margin: 0;
+  }
+
+  .skill__item { 
+    margin: .5rem;
   }
 }
 
