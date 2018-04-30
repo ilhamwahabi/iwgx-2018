@@ -14,14 +14,14 @@ nav#navbar {
   align-items: center;
   justify-content: space-around;
   width: 100%;
-  padding: 1.5rem;
+  padding: 1rem;
 }
 
 .navbar__item {
   text-align: center;
   flex: 1;
   cursor: pointer;
-  padding: .3rem;  
+  padding: .3rem;
 }
 
 .navbar__item a {
@@ -38,7 +38,8 @@ nav#navbar {
 
 .navbar__item-resume {
   border-bottom: .1rem solid white;
-  padding-bottom: .5rem;
+  padding-bottom: .3rem;
+  margin-right: 3rem;
 }
 
 .navbar__item-resume a:hover {
@@ -46,9 +47,9 @@ nav#navbar {
 }
 
 .divider-5 {
-  flex: 5;
+  flex: 7;
 }
 
 .navbar__colored {
-  background-color: #36d1dc;
+  background-color: #36d1dcc4;
 }
