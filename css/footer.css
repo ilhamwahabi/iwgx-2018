@@ -1,6 +1,6 @@
 footer#contact {
   min-height: 100vh;
-  max-width: 100vw;
+  width: 100vw;
   background-image: url("../assets/footer.png"), linear-gradient(to bottom, #36d1dc, #5b86e5);
   background-position: center;
   background-size: cover;

@@ -3,7 +3,7 @@ nav#navbar {
   top: 0;
   left: 0;
   margin: auto;
-  width: 100%;
+  width: 100vw;
   z-index: 99;
   transition: background-color .5s;
 }
@@ -39,17 +39,20 @@ nav#navbar {
 .navbar__item-resume {
   border-bottom: .1rem solid white;
   padding-bottom: .3rem;
-  margin-right: 3rem;
 }
 
 .navbar__item-resume a:hover {
   border-bottom: none;
 }
 
-.divider-5 {
-  flex: 7;
+.divider-6 {
+  flex: 8;
+}
+
+.divider-1 {
+  flex: 1;
 }
 
 .navbar__colored {
-  background-color: #36d1dcc4;
+  background-color: #36d1dca4;
 }
