@@ -5,3 +5,31 @@
 @import url('skill.css');
 @import url('portfolio.css');
 @import url('footer.css');
+
+@media (max-width: 640px) {
+  .header__title {
+    font-size: 7.5rem;
+  }
+
+  .header__subtitle, .header__subtitle .ul {
+    font-size: 2rem;
+  }
+
+  .navbar__item a {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .header__title {
+    font-size: 5rem;
+  }
+
+  .desc__title {
+    font-size: 3rem;
+  }
+
+  .desc__content {
+    font-size: 1.5rem;
+  }
+}

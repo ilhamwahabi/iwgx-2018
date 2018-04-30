@@ -16,6 +16,7 @@ header#header {
 
 .header__title {
   font-size: 10rem;
+  text-align: center;
 }
 
 .header__subtitle, .header__subtitle .ul {
@@ -25,20 +26,4 @@ header#header {
 .header__subtitle .ul {
   padding-bottom: .3rem;
   border-bottom: .3rem solid white;
-}
-
-@media (max-width: 640px) {
-  .header__title {
-    font-size: 7.5rem;
-  }
-
-  .header__subtitle, .header__subtitle .ul {
-    font-size: 2rem;
-  }
-}
-
-@media (max-width: 480px) {
-  .header__title {
-    font-size: 5rem;
-  }
 }

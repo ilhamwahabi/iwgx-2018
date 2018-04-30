@@ -10,9 +10,5 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 100vw;
+  max-width: 100vw;
 }
-/* 
-@media (max-width: 720px) {
-
-} */
