@@ -14,7 +14,7 @@ nav#navbar {
   align-items: center;
   justify-content: space-around;
   width: 100%;
-  padding: 1rem;
+  padding: 1.5rem;
 }
 
 .navbar__item {
@@ -54,5 +54,13 @@ nav#navbar {
 }
 
 .navbar__colored {
-  background-color: #36d1dca4;
+  background-color: white;
+}
+
+.navbar__colored a {
+  color: #3F51B5;
+}
+
+.navbar__colored .navbar__item-resume {
+  border-bottom: .1rem solid #3F51B5;
 }
