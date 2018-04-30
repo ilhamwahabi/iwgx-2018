@@ -30,7 +30,7 @@
   }
 
   .skill__title {
-    font-size: 3.5rem;
+    font-size: 4rem;
   }
 
   #skill .row {
@@ -38,7 +38,25 @@
   }
 
   .skill__item { 
-    margin: .5rem;
+    margin: .1rem;
+  }
+
+  .portfolio__title {
+    font-size: 3rem; 
+  }
+
+  section#portfolio {
+    padding-top: 3rem;
+  }
+
+  .portfolio__item-title {
+    font-size:  1.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  .portfolio__item-desc {
+    font-size: 1rem;
   }
 
   footer#contact {
@@ -48,14 +66,17 @@
 
   .footer__title {
     font-size: 3.5rem;
+    text-align: center;
   }
 
   .footer__subtitle {
     font-size: 1.5rem;
+    text-align: center;    
   }
 
   .footer__email {
     font-size: 2.5rem;
+    text-align: center;    
   }
 }
 
