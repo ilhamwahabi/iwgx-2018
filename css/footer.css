@@ -15,14 +15,17 @@ footer#contact {
 
 .footer__title {
   font-size: 7rem;
-  margin-bottom: 5rem;      
+  margin-bottom: 5rem;   
+  text-align: center;         
 }
 
 .footer__subtitle {
   font-size: 2rem;
+  text-align: center;      
 }
 
 .footer__email {
   font-size: 9rem;
   margin-bottom: 5rem;  
+  text-align: center;      
 }

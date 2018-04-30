@@ -8,7 +8,11 @@ window.onscroll = function() {
     minScroll = window.innerHeight * 0.25;
   }
 
-  console.log(minScroll)
+  var element = event.target;
+  if (element.scrollHeight - element.scrollTop === element.clientHeight)
+  {
+      console.log('scrolled');
+  }
 
   if (window.scrollY >= minScroll && window.scrollY <= scrollUntilFooter) {
     navbar.classList.add('navbar__colored');

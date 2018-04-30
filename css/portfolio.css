@@ -2,7 +2,7 @@
 section#portfolio {
   min-height: 125vh;
   width: 100vw;
-  background-image: url("../assets/footer.png"), linear-gradient(to bottom, white,#36d1dc 90%);  
+  background-image: linear-gradient(to bottom, white,#36d1dc 90%);  
   color: #3F51B5;
   padding-top: 10rem;
 
@@ -32,6 +32,7 @@ section#portfolio {
 
 .portfolio__item a {
   text-decoration: none;
+  text-align: center;
 }
 
 .portfolio__item-title {
@@ -41,6 +42,7 @@ section#portfolio {
 
 .portfolio__item-desc {
   font-size: 1.5rem;
+  text-align: center;
 }
 
 .portfolio__img {
@@ -54,7 +56,7 @@ section#portfolio {
 }
 
 .portfolio__img:hover {
-  transform: scale(1.5);
+  transform: scale(1.2);
 }
 
 .portfolio__one{
