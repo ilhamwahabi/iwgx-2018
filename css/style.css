@@ -6,10 +6,276 @@
 @import url('portfolio.css');
 @import url('footer.css');
 
+@media (max-width: 1366px) and (max-height: 1024px) {
+  section#desc {
+    min-height: 50vh;
+  }
+
+  section#skill {
+    padding: 15rem 1.5rem;
+    min-height: 85vh;
+  }
+
+  .skill__title {
+    font-size: 7.5rem;
+  }
+
+  #skill .row {
+    margin: 0;
+    margin-bottom: 1rem;
+  }
+
+  .skill__item { 
+    margin: 0 1rem 1rem 1rem;
+  }
+
+  section#portfolio {
+    min-height: 75vh;
+    padding-top: 3rem;
+  }
+
+  .footer__subtitle {
+    font-size: 3rem;
+  }
+}
+
+
+@media (max-width: 1024px) and (max-height: 1366px) {
+  .navbar__item a {
+    font-size: 3rem;
+  }
+  
+  .header__title {
+    font-size: 12.5rem;
+  }
+
+  .header__subtitle, .header__subtitle .ul {
+    font-size: 4rem;
+  }
+  
+  section#desc {
+    min-height: 35vh;
+  }
+
+  section#skill {
+    padding: 17rem 1.5rem;
+    min-height: 75vh;
+  }
+
+  .skill__title {
+    font-size: 7.5rem;
+  }
+
+  #skill .row {
+    margin: 0;
+    margin-bottom: 1rem;
+  }
+
+  .skill__item { 
+    margin: 0 1rem 1rem 1rem;
+  }
+  
+  section#portfolio {
+    min-height: 75vh;
+    padding-top: 3rem;
+  }
+
+  .portfolio__title {
+    font-size: 7rem; 
+  }
+
+  #portfolio .row {
+    flex-wrap: wrap;
+    margin-bottom: 0;
+  }
+
+  .portfolio__item {
+    width: 100%;
+    flex: unset;
+    margin-bottom: 5rem;
+  }
+
+  .portfolio__img {
+    margin: 0;
+    height: 30vh;
+  }
+
+  .portfolio__item-title {
+    font-size:  5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+
+  .portfolio__item-desc {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  .footer__title {
+    font-size: 7rem;
+  }
+
+  .footer__subtitle {
+    font-size: 3rem;
+  }
+
+  .footer__email {
+    font-size: 7rem;
+  }
+}
+
+
+@media (max-width: 768px) and (max-height: 1024px) {
+
+  .header__title {
+    font-size: 10rem;
+  }
+  
+  .header__subtitle, .header__subtitle .ul {
+    font-size: 3rem;
+  }
+
+  .navbar__item a {
+    font-size: 3rem;
+  }
+
+  section#desc {
+    min-height: 60vh;
+  }
+
+  .desc__title {
+    padding-right: 9rem;
+    padding-left: 9rem;
+  }
+
+  section#skill {
+    padding: 14rem 1.5rem;
+    min-height: 75vh;
+  }
+
+  .skill__title {
+    font-size: 7.5rem;
+  }
+
+  #skill .row {
+    margin: 0;
+    margin-bottom: 1rem;
+  }
+
+  .skill__item { 
+    margin: .1rem;
+  }
+
+  section#portfolio {
+    min-height: 75vh;
+    padding-top: 3rem;
+  }
+
+  .portfolio__title {
+    font-size: 7rem; 
+  }
+
+  #portfolio .row {
+    flex-wrap: wrap;
+    margin-bottom: 0;
+  }
+
+  .portfolio__item {
+    width: 100%;
+    flex: unset;
+    margin-bottom: 5rem;
+  }
+
+  .portfolio__img {
+    margin: 0;
+    height: 30vh;
+  }
+
+  .portfolio__item-title {
+    font-size:  5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+
+  .portfolio__item-desc {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  footer#contact {
+    padding: 4rem;
+  }  
+
+  .footer__title {
+    font-size: 7rem;
+  }
+
+  .footer__subtitle {
+    font-size: 3rem;
+  }
+
+  .footer__email {
+    font-size: 6rem;
+  }
+}
+
+@media (max-width: 1024px) and (max-height: 768px) {
+  .navbar__item a {
+    font-size: 3rem;
+  }
+
+  section#skill {
+    padding: 10rem 1.5rem;
+    min-height: 85vh;
+  }
+
+  .skill__title {
+    font-size: 6rem;
+  }
+
+  #skill .row {
+    margin: 0;
+    margin-bottom: 1rem;
+  }
+
+  .skill__item { 
+    margin: 0 .3rem;
+  }
+
+  footer#contact {
+    padding: 5rem;
+  }  
+
+  .footer__title {
+    font-size: 7rem;
+  }
+
+  .footer__subtitle {
+    font-size: 3rem;
+  }
+
+  .footer__email {
+    font-size: 8rem;
+  }
+}
+
+
 @media (max-width: 1280px) {
   nav#navbar {
     bottom: 0;
     top: unset;
+  }
+
+  .navbar__item a {
+    font-size: 1.5rem;
+  }
+
+  .header__title {
+    font-size: 10rem;
+  }
+  
+  .header__subtitle, .header__subtitle .ul {
+    font-size: 3rem;
   }
 
   #navbar .divider-6, #navbar .divider-1 {
@@ -62,10 +328,12 @@
     border-bottom: none;
     order: 1;
   }
-
 }
 
 @media (max-width: 640px) {
+  .navbar__item a {
+    font-size: 1.5rem;
+  }
 
   .header__title {
     font-size: 7.5rem;
@@ -77,6 +345,11 @@
 
   section#desc {
     min-height: 50vw;
+  }
+
+  .desc__title {
+    padding-right: 5rem;
+    padding-left: 5rem;
   }
 
   section#skill {
@@ -123,7 +396,7 @@
 
   .portfolio__img {
     margin: 0;
-    height: 20vh;
+    height: 25vh;
   }
 
   .portfolio__item-title {
@@ -133,7 +406,7 @@
   }
 
   .portfolio__item-desc {
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin-bottom: 1rem;
   }
 
@@ -167,6 +440,11 @@
     font-size: 1.5rem;
   }
 
+  section#skill {
+    padding: 10rem 1.5rem;
+    min-height: 75vh;
+  }
+
   .skill__title {
     font-size: 3rem;
   }
@@ -192,7 +470,7 @@
 
   section#skill {
     padding: 10rem 1.5rem;
-    min-height: 125vh;
+    min-height: 150vh;
   }
 
   .skill__title {
@@ -229,5 +507,11 @@
 
   .footer__email {
     font-size: 4.5rem;
+  }
+}
+
+@media (max-width: 480px) and (max-height: 640px) {
+  section#skill {
+    padding: 10rem 1.5rem;
   }
 }

@@ -41,6 +41,7 @@ section#skill {
   display: flex;
   flex-direction: row;
   flex: 1;
+  padding: 1rem 0;
 }
 
 .skill__react {
