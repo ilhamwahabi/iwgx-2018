@@ -33,6 +33,10 @@
 }
 
 @media (max-width: 1366px) and (max-height: 767px) {
+  section#desc {
+    min-height: 75vh;
+  }
+  
   section#skill {
     padding: 15rem 1.5rem;
     min-height: 125vh;
