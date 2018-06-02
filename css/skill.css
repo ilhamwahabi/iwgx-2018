@@ -26,6 +26,7 @@ section#skill {
   background-repeat: no-repeat;
   flex: 1;  
   cursor: pointer;
+  background-image: linear-gradient(rgba(79, 133, 250, 0.63));
   transition: transform .3s;
 }
 
@@ -64,6 +65,6 @@ section#skill {
   background-image: url("https://camo.githubusercontent.com/79904b8ba0d1bce43022bbd5710f0ea1db33f54f/68747470733a2f2f7261776769742e636f6d2f73696e647265736f726875732f617765736f6d652d656c656374726f6e2f6d61737465722f656c656374726f6e2d6c6f676f2e737667");
 }
 
-.skill__sass {
-  background-image: url("https://sass-lang.com/assets/img/logos/logo-b6e1ef6e.svg");
+.skill__ionic {
+  background-image: url("https://puu.sh/AxK1u/5de82a7d92.png");
 }

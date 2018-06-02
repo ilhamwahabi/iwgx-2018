@@ -59,6 +59,7 @@ nav#navbar {
 
 .navbar__colored {
   background-color: white;
+  box-shadow: .1rem 0 .5rem;
 }
 
 .navbar__colored a {
