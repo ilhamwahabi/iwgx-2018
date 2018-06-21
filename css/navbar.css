@@ -1,11 +1,11 @@
-nav#navbar {
+nav {
   position: fixed;
   top: 0;
   left: 0;
   margin: auto;
   width: 100vw;
   z-index: 99;
-  transition: background-color .5s;
+  transition: all .5s;
 }
 
 .navbar__row {  
@@ -14,7 +14,7 @@ nav#navbar {
   align-items: center;
   justify-content: space-around;
   width: 100%;
-  padding: 1.5rem;
+  padding: 2.5rem 1.5rem;
 }
 
 .navbar__item {
@@ -59,7 +59,6 @@ nav#navbar {
 
 .navbar__colored {
   background-color: white;
-  box-shadow: .1rem 0 .5rem;
 }
 
 .navbar__colored a {
@@ -68,4 +67,8 @@ nav#navbar {
 
 .navbar__colored .navbar__item-resume {
   border-bottom: .1rem solid #3F51B5;
+}
+
+.navbar__hide {
+  top: -10rem;
 }

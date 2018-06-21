@@ -11,8 +11,16 @@ window.onscroll = function() {
     window.scrollY >= minScroll && 
     (window.innerHeight + window.scrollY) < document.body.offsetHeight
   ) {
-    navbar.classList.add('navbar__colored');
+    if (window.innerWidth <= 1280) {
+    navbar.classList.add('navbar__colored');      
+    } else {
+      navbar.classList.add('navbar__hide');
+    }
   } else {
-    navbar.classList.remove('navbar__colored');
+    if (window.innerWidth <= 1280) {
+      navbar.classList.remove('navbar__colored');      
+    } else {
+      navbar.classList.remove('navbar__hide');
+    }
   }
 }
