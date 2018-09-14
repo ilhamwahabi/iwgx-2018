@@ -57,6 +57,7 @@ section#portfolio {
 
 .portfolio__img:hover {
   transform: scale(1.2);
+  backface-visibility: visible;
 }
 
 .portfolio__one{
@@ -72,4 +73,17 @@ section#portfolio {
 .portfolio__three{
   background-image: url("../assets/right.png");
   margin-top: 10rem;      
+}
+
+.portfolio_curiousity {
+  margin: 0;
+  padding: 0;
+  flex: 0;
+}
+
+.portfolio_curiousity p, .portfolio_curiousity a{
+  font-size: 2.5rem;
+  margin: 0 auto;
+  color: white;
+  text-align: center;
 }
