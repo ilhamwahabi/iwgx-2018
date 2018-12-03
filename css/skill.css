@@ -1,8 +1,8 @@
-
 section#skill {
   min-height: 125vh;
   width: 100vw;
-  background-image: url("../assets/contact.png"), linear-gradient(to bottom, #36d1dc, #5b86e5);
+  background-image: url("../assets/contact.png"),
+    linear-gradient(to bottom, #36d1dc, #5b86e5);
   background-position: center;
   background-size: cover;
   background-attachment: scroll;
@@ -24,10 +24,10 @@ section#skill {
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  flex: 1;  
+  flex: 1;
   cursor: pointer;
   background-image: linear-gradient(rgba(79, 133, 250, 0.63));
-  transition: transform .3s;
+  transition: transform 0.3s;
 }
 
 .skill__item:hover {
@@ -46,11 +46,11 @@ section#skill {
 }
 
 .skill__react {
-  background-image: url("https://s3.amazonaws.com/media-p.slid.es/uploads/alexanderfarennikov/images/1198519/reactjs.png");  
+  background-image: url("https://s3.amazonaws.com/media-p.slid.es/uploads/alexanderfarennikov/images/1198519/reactjs.png");
 }
 
-.skill__vue {
-  background-image: url("https://genesisui-static-dcklmia32ll.netdna-ssl.com/assets/img/logos/vue.svg");    
+.skill__express {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png");
 }
 
 .skill__angular {

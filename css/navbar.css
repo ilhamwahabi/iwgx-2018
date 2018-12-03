@@ -5,10 +5,10 @@ nav {
   margin: auto;
   width: 100vw;
   z-index: 99;
-  transition: all .5s;
+  transition: all 0.5s;
 }
 
-.navbar__row {  
+.navbar__row {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -21,28 +21,29 @@ nav {
   text-align: center;
   flex: 1;
   cursor: pointer;
-  padding: .3rem;
+  padding: 0.3rem;
 }
 
 .navbar__item a {
-  text-decoration: none;  
-  color: white;  
+  text-decoration: none;
+  color: white;
   font-size: 2rem;
-  padding-bottom: .3rem;
-  transition: border-bottom 1s;  
+  padding-bottom: 0.3rem;
+  transition: border-bottom 1s;
 }
 
 .navbar__item a:hover {
-  border-bottom: .1rem solid white;
+  border-bottom: 0.1rem solid white;
 }
 
 .navbar__item-resume {
-  border-bottom: .1rem solid white;
-  padding-bottom: .3rem;
+  border-bottom: 0.1rem solid white;
+  padding-bottom: 0.3rem;
 }
 
-.navbar__item-github, .navbar__item-linkedin {
-  transition: background-color .5s;
+.navbar__item-github,
+.navbar__item-linkedin {
+  transition: background-color 0.5s;
 }
 
 .navbar__item-resume a:hover {
@@ -50,7 +51,7 @@ nav {
 }
 
 .divider-6 {
-  flex: 8;
+  flex: 6;
 }
 
 .divider-1 {
@@ -62,11 +63,11 @@ nav {
 }
 
 .navbar__colored a {
-  color: #3F51B5;
+  color: #3f51b5;
 }
 
 .navbar__colored .navbar__item-resume {
-  border-bottom: .1rem solid #3F51B5;
+  border-bottom: 0.1rem solid #3f51b5;
 }
 
 .navbar__hide {
