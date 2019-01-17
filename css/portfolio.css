@@ -82,8 +82,14 @@ section#portfolio {
 }
 
 .portfolio_curiousity p, .portfolio_curiousity a{
-  font-size: 2.5rem;
+  font-size: 3rem;
+  background-color: white;
+  /* font-weight: bold; */
   margin: 0 auto;
-  color: white;
+  color: #103D56;
   text-align: center;
+}
+
+.portfolio_curiousity p {
+  padding: .75rem;
 }

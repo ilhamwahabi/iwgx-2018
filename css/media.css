@@ -433,6 +433,10 @@
   .footer__email {
     font-size: 2.5rem;
   }
+
+  .portfolio_curiousity p, .portfolio_curiousity a{
+    font-size: 2rem;
+  }
 }
 
 @media (max-width: 480px) {
