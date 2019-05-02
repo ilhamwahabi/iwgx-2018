@@ -1,8 +1,7 @@
-
-section#portfolio {
+.portfolio {
   min-height: 125vh;
   width: 100vw;
-  background-image: linear-gradient(to bottom, white,#36d1dc 90%);  
+  background-image: linear-gradient(to bottom, white, #36d1dc 90%);
   color: #3F51B5;
   padding-top: 10rem;
 
@@ -60,19 +59,19 @@ section#portfolio {
   backface-visibility: visible;
 }
 
-.portfolio__one{
+.portfolio__one {
   background-image: url("../assets/left.png");
-  margin-top: 10rem;        
+  margin-top: 10rem;
 }
 
-.portfolio__two{
+.portfolio__two {
   background-image: url("../assets/center.png");
-  margin-bottom: 15rem;        
+  margin-bottom: 15rem;
 }
 
-.portfolio__three{
+.portfolio__three {
   background-image: url("../assets/right.png");
-  margin-top: 10rem;      
+  margin-top: 10rem;
 }
 
 .portfolio_curiousity {
@@ -81,7 +80,8 @@ section#portfolio {
   flex: 0;
 }
 
-.portfolio_curiousity p, .portfolio_curiousity a{
+.portfolio_curiousity p,
+.portfolio_curiousity a {
   font-size: 3rem;
   background-color: white;
   /* font-weight: bold; */

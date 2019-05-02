@@ -1,4 +1,4 @@
-footer#contact {
+.footer {
   min-height: 100vh;
   width: 100vw;
   background-image: url("../assets/footer.png"), linear-gradient(to bottom, #36d1dc, #5b86e5);
@@ -15,17 +15,17 @@ footer#contact {
 
 .footer__title {
   font-size: 7rem;
-  margin-bottom: 5rem;   
-  text-align: center;         
+  margin-bottom: 5rem;
+  text-align: center;
 }
 
 .footer__subtitle {
   font-size: 2rem;
-  text-align: center;      
+  text-align: center;
 }
 
 .footer__email {
   font-size: 9rem;
-  margin-bottom: 5rem;  
-  text-align: center;      
+  margin-bottom: 5rem;
+  text-align: center;
 }

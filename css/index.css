@@ -1,3 +1,10 @@
+@import url('navbar.css');
+@import url('header.css');
+@import url('desc.css');
+@import url('skill.css');
+@import url('portfolio.css');
+@import url('footer.css');
+
 * {
   margin: 0;
   padding: 0;

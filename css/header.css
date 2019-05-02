@@ -1,4 +1,4 @@
-header#header {
+.header {
   min-height: 100vh;
   width: 100vw;
   background-image: url("../assets/header.png"), linear-gradient(to bottom, #36d1dc, #5b86e5 90%, white 100%);
@@ -19,7 +19,8 @@ header#header {
   text-align: center;
 }
 
-.header__subtitle, .header__subtitle .ul {
+.header__subtitle,
+.header__subtitle .ul {
   font-size: 3rem;
 }
 

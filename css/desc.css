@@ -1,4 +1,4 @@
-section#desc {
+.desc {
   min-height: 75vh;
   width: 100vw;
   background-color: white;
@@ -18,7 +18,7 @@ section#desc {
   padding: 0 3rem;
 }
 
-.desc__content{
+.desc__content {
   font-size: 3rem;
   max-width: 70%;
   text-align: justify;
@@ -26,5 +26,5 @@ section#desc {
 
 .desc__content .ul {
   font-size: 3rem;
-  border-bottom: .1rem solid #5b86e5;  
+  border-bottom: .1rem solid #5b86e5;
 }
