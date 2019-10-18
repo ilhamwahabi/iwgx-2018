@@ -1,4 +1,4 @@
-const navbar = document.getElementById('navbar');
+var navbar = document.getElementById("navbar");
 
 window.onscroll = function() {
   var minScroll = window.innerHeight * 0.75;
@@ -8,19 +8,19 @@ window.onscroll = function() {
   }
 
   if (
-    window.scrollY >= minScroll && 
-    (window.innerHeight + window.scrollY) < document.body.offsetHeight
+    window.scrollY >= minScroll &&
+    window.innerHeight + window.scrollY < document.body.offsetHeight
   ) {
     if (window.innerWidth <= 1280) {
-    navbar.classList.add('navbar__colored');      
+      navbar.classList.add("navbar__colored");
     } else {
-      navbar.classList.add('navbar__hide');
+      navbar.classList.add("navbar__hide");
     }
   } else {
     if (window.innerWidth <= 1280) {
-      navbar.classList.remove('navbar__colored');      
+      navbar.classList.remove("navbar__colored");
     } else {
-      navbar.classList.remove('navbar__hide');
+      navbar.classList.remove("navbar__hide");
     }
   }
-}
+};
